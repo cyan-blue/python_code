@@ -18,7 +18,7 @@ def isnum(value):
 
     try:
 
-        temp = int(value)
+        temp = value
 
     except Exception as e:
 
@@ -110,8 +110,11 @@ def main(steps, uid):
 
 if __name__ == '__main__':
 
-    steps = 199999
-
-    uid = '25663611'
-
+    steps = 20357
+    #uid = '25663611'
+    #uid  = '34621854'
+    #uid = '39867672'
+    #uid = '39870331'
+    uid = '34621854'
+    print uid
     main(steps, uid)
